@@ -1,0 +1,13 @@
+name: Testi
+version: 1.0
+cabal-version: 1.6
+build-type: Simple
+license: AllRightsReserved
+stability: experimental
+Executable Testi
+  main-is: Testi.hs
+  buildable: True
+  build-depends:
+      base -any,
+      JuicyPixels -any,
+      Rasterific -any

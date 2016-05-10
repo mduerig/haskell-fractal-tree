@@ -1,0 +1,21 @@
+-- Haskell Playground 1.0
+import Graphics.SpriteKit hiding (Path, Point, Sprite)
+
+let line = Line (Point 450 800) (Point 350 800)
+
+drawPicture 10 (tree 8 0.55 green line)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
